@@ -16,7 +16,7 @@ var flash = require("connect-flash");
 
 
 
-mongoose.connect('mongodb+srv://TomBrose:Charlie1!@cluster0.gspeu.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://TomBrose:Charlie1!@cluster0.gspeu.mongodb.net/cluster0?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
