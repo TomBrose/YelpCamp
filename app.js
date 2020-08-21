@@ -13,6 +13,7 @@ var campgroundRoutes = require("./routes/campgrounds");
 var indexRoutes = require("./routes/index");
 var methodOverride = require("method-override");
 var flash = require("connect-flash");
+var port = process.env.PORT || 3000;
 
 
 
@@ -62,6 +63,6 @@ app.use(function(req, res, next){
 
 
 
-app.listen(3000, function() { 
-  console.log('Server listening on port 3000'); 
+app.listen(port, function () {
+ console.log("Server Has Started!");
 });
