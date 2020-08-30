@@ -17,3 +17,9 @@
 #delete {
 	display: inline;
 }
+
+.jumbotron {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+}
